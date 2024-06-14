@@ -59,7 +59,7 @@ const Links = () => {
         {datas.map(item => (
             <div id={`id-${item.service_order}`} key={item.service_order} className={`block lg:h-fit lg:flex justify-center items-center text-center ${item.service_order % 2 === 0 ? 'bg-gray-100 flex-row-reverse' : 'bg-gray-200'}`}>
                 <div className='images lg:w-5/12 mx-10 my-4'>
-                    <img src={item.icon} className='h-[500px] mx-auto' />
+                    <img src={item.icon} className='h-[300px] md:h-[500px] mx-auto' />
                 </div>
                 <div className='block lg:w-5/12 mx-10 my-8 p-4'>
                 <img src={item.photo} className='w-20 mx-auto' />
