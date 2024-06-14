@@ -42,7 +42,7 @@ const Links = () => {
     <div className='m-4 p-2 rounded-md bg-slate-100'>
       {/* Display data */}
       {datas && (
-        <ul className='md:flex md:flex-row-reverse md:px-20'>
+        <ul className='flex flex-col md:flex-row-reverse md:px-20'>
           {datas.map(item => (
            <li key={item.service_order} className='line-clamp-2 m-1 text-xs mb-2 md:mb-0 hover:text-blue-600 transition-all ease-out'>
            <a href={`#id-${item.service_order}`}>{item.title}</a>
