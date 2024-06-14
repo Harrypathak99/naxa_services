@@ -40,7 +40,6 @@ export function* fetchDataSaga(action) {
 
 export function* watchFetchData() {
   yield takeEvery(fetchDataStart.type, fetchDataSaga);
-  yield takeLatest(fetchDataStart.type, fetchDataSaga);
 }
 
 export default dataSlice.reducer;
