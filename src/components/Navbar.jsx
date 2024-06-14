@@ -39,7 +39,7 @@ const Navbar = () => {
             <ul className='relative mt-8 pl-4'>
             {linkdata.map((item, index) => ( 
                     <li key={index} className='p-3 cursor-pointer hover:text-blue-700 hover:transition-all'>{item}</li>
-                ))};
+                ))}
             </ul>
             </div>
 
